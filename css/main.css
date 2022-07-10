@@ -17,13 +17,13 @@ body {
 }
 
 ::-moz-selection {
-  background-color: #4b4b4b;
-  color: #c9b375;
+  background-color: #97A292;
+  color: #97A292;
 }
 
 ::selection {
-  background-color: #4b4b4b;
-  color: #c9b375;
+  background-color: #97A292;
+  color: #97A292;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 }
 
 .intro-title {
-  height: 40vh;
+  height: 28vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,7 +195,7 @@ body {
 
 .heading-secondary {
   text-align: center;
-  color: #c9b375;
+  color: #E8DFD2;
   text-transform: uppercase;
   font-family: serif;
   font-weight: 500;
@@ -216,14 +216,14 @@ body {
   text-transform: capitalize;
   font-size: 7.5rem;
   font-weight: 700;
-  color: #4b4b4b;
+  color: #363C52;
   line-height: 1;
   text-align: center;
 }
 
 .names__and-sign {
   font-size: 10rem;
-  color: #c9b375;
+  color: #BD9291;
 }
 
 @media (min-width: 769px) {
@@ -238,6 +238,10 @@ body {
 .countdown-container {
   text-align: center;
   padding: 0.7rem;
+  background-image: url("../img/werno_hanneke.png");
+  background-size: cover;
+  background-position: top center;
+  min-height: 800px;
 }
 
 .date-text {
@@ -289,8 +293,8 @@ body {
 
 .countdown__item {
   padding: 2rem 1.5rem;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(221, 196, 128, 0.4)), to(rgba(221, 196, 128, 0.1)));
-  background-image: linear-gradient(to top, rgba(221, 196, 128, 0.4), rgba(221, 196, 128, 0.1));
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(151, 162, 146, 0.5)), to(rgba(151, 162, 146, 0.9)));
+  background-image: linear-gradient(to top, rgba(151, 162, 146, 0.7), rgba(151, 162, 146, 0.2));
   border-radius: 5rem;
   width: 20rem;
   font-family: "Lobster Two", cursive;
@@ -298,16 +302,16 @@ body {
 }
 
 .countdown__number {
-  text-shadow: 2px 2px 0 white;
+    text-shadow: 2px 2px 0 #363D51;
   font-weight: 900;
-  color: #a18f5d;
+  color: rgba(151, 162, 146, 1);
   font-size: 12rem;
 }
 
 .countdown__description {
   font-size: 3rem;
   text-transform: lowercase;
-  color: #4b4b4b;
+  color: #363D51;
 }
 
 @-webkit-keyframes moveInLeft {
@@ -406,21 +410,21 @@ body {
 
 .side-btns__item--1 {
   font-size: 2.1rem;
-  background-color: #0a093b;
+  background-color: #BE9290;
   -webkit-animation: moveInLeft 1s ease-out 0.2s forwards;
           animation: moveInLeft 1s ease-out 0.2s forwards;
 }
 
 .side-btns__item--2 {
   font-size: 2.1rem;
-  background-color: #1c1a59;
+  background-color: #7D5F5D;
   -webkit-animation: moveInLeft 1s ease-out 0.6s forwards;
           animation: moveInLeft 1s ease-out 0.6s forwards;
 }
 
 .side-btns__item--3 {
   font-size: 2.2rem;
-  background-color: #575594;
+  background-color: #584241;
   -webkit-animation: moveInLeft 1s ease-out 1s forwards;
           animation: moveInLeft 1s ease-out 1s forwards;
 }

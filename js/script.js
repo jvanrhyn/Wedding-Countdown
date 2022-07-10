@@ -86,8 +86,8 @@ function setLocalStorage(countdownDate, nameVal1, nameVal2) {
 
 function setDateString() {
     // CHANGE DATE TO TEXT
-    const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const weekdays = ["Sondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrydag", "Saterdag"];
+    const months = ["Januarie", "Februarie", "Maart", "April", "Mei", "Junie", "Julie", "Augustus", "September", "Oktober", "November", "Desember"];
     const newDate = new Date(countdownDate);
     const weekday = newDate.getDay();
     const dateValue = newDate.getDate();
@@ -101,14 +101,14 @@ function setDateString() {
 
     let suffix;
     if (lastDigit === 1) {
-        suffix = "st";
+        suffix = "ste";
     } else if (lastDigit === 2) {
-        suffix = "nd";
+        suffix = "de";
     } else if (lastDigit === 3) {
-        suffix = "rd";
+        suffix = "de";
     }
     else {
-        suffix = "th";
+        suffix = "de";
     }
 
     // POPULATE DATE PARAGRAPH
